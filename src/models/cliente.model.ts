@@ -35,7 +35,7 @@ Cliente.init(
         type: new DataTypes.STRING(128),
       },
       dtNascimento: {
-        type: new DataTypes.DATE,
+        type: new DataTypes.DATEONLY,
       }
     },
     {
